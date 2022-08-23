@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/style.css">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-content">
+    <div class="content-balance">
+      <div class="my-balance">
+        <h2>My balance</h2>
+        <p>$921.48</p>
+      </div>
+      <div class="flag-card">
+        <span class="circle-one"></span>
+        <span class="circle-two"></span>
+      </div>
+    </div>
+
+    <div class="spending-content">
+      <h1>Spending - Last 7 days</h1>
+      <div class="graphic-spending">
+        <div class="days" data-day="mon">
+          <p class="value-spending"></p>
+          <div class="background-spending"></div>
+          <p class="day-week">mon</p>
+        </div>
+        <div class="days" data-day="tue">
+          <p class="value-spending"></p>
+          <div class="background-spending"></div>
+          <p class="day-week">tue</p>
+        </div>
+        <div class="days" data-day="wed">
+          <p class="value-spending"></p>
+          <div class="background-spending"></div>
+          <p class="day-week">wed</p>
+        </div>
+        <div class="days" data-day="thu">
+          <p class="value-spending"></p>
+          <div class="background-spending"></div>
+          <p class="day-week">thu</p>
+        </div>
+        <div class="days" data-day="fri">
+          <p class="value-spending"></p>
+          <div class="background-spending"></div>
+          <p class="day-week">fri</p>
+        </div>
+        <div class="days" data-day="sat">
+          <p class="value-spending"></p>
+          <div class="background-spending"></div>
+          <p class="day-week">sat</p>
+        </div>
+        <div class="days" data-day="sun">
+          <p class="value-spending"></p>
+          <div class="background-spending"></div>
+          <p class="day-week">sun</p>
+        </div>
+      </div>
+      <div class="spending-month">
+        <div class="total">
+          <p>Total this month</p>
+          <h2>$478.33</h2>
+        </div>
+        <div class="percentage">
+          <span>+2.4%</span>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Matheus Lacerda</a>.
+  </div>
+
+  <script src="src/script.js"></script>
+</body>
+
+</html>

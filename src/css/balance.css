@@ -1,0 +1,48 @@
+.content-balance {
+    width: 100%;
+    background: hsl(10, 79%, 65%);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.my-balance h2 {
+    color: hsl(33, 100%, 98%);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 13px;
+
+}
+
+.my-balance p {
+    color: hsl(33, 100%, 98%);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.flag-card {
+    position: relative;
+}
+
+.flag-card .circle-one {
+    background: hsl(25, 47%, 15%);
+    padding: 25px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: -23px;
+    bottom: 0;
+}
+
+.flag-card .circle-two {
+    background: transparent;
+    border: 1px solid hsl(33, 100%, 98%);
+    padding: 24px;
+    border-radius: 50%;
+    position: absolute;
+    right: 25px;
+    top: -23px;
+}
